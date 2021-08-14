@@ -7,8 +7,8 @@
 #include <libinit_lito.h>
 
 static const variant_info_t picasso_info = {
-    .hwc_value = "CN",
-    .sku_value = "",
+    .prop_key = "ro.boot.hwc",
+    .prop_value = "CN",
 
     .brand = "Redmi",
     .device = "picasso",
@@ -16,12 +16,11 @@ static const variant_info_t picasso_info = {
     .model = "M2001G7AE",
     .build_description = "picasso-user-11-RKQ1.200826.002-V12.1.5.0.RGICNXM-release-keys",
     .build_fingerprint = "Redmi/picasso/picasso:11/RKQ1.200826.002/V12.1.5.0.RGICNXM:user/release-keys",
-    .nfc = true,
 };
 
 static const variant_info_t picasso_48m_info = {
-    .hwc_value = "CN",
-    .sku_value = "",
+    .prop_key = "ro.boot.hwc",
+    .prop_value = "CN",
 
     .brand = "Redmi",
     .device = "picasso_48m",
@@ -29,7 +28,6 @@ static const variant_info_t picasso_48m_info = {
     .model = "M2001G7AC",
     .build_description = "picasso_48m-user-11-RKQ1.200826.002-V12.1.5.0.RGICNXM-release-keys",
     .build_fingerprint = "Redmi/picasso_48m/picasso:11/RKQ1.200826.002/V12.1.5.0.RGICNXM:user/release-keys",
-    .nfc = true,
 };
 
 static const std::vector<variant_info_t> variants = {
