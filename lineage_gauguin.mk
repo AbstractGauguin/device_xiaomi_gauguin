@@ -12,17 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from monet device
-$(call inherit-product, device/xiaomi/monet/device.mk)
+$(call inherit-product, device/xiaomi/gauguin/device.mk)
 
-PRODUCT_NAME := lineage_monet
-PRODUCT_DEVICE := monet
+# Device identifier. This must come after all inclusions.
+PRODUCT_NAME := lineage_gauguin
+PRODUCT_DEVICE := gauguin
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi 10 Lite 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="monet-user 11 RKQ1.200826.002 V12.5.1.0.RJIMIXM release-keys"
-
-BUILD_FINGERPRINT := Xiaomi/monet_global/monet:11/RKQ1.200826.002/V12.5.1.0.RJIMIXM:user/release-keys

@@ -7,7 +7,7 @@
 # Inherit from sm7250-common
 include device/xiaomi/sm7250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/monet
+DEVICE_PATH := device/xiaomi/gauguin
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -20,7 +20,7 @@ SOONG_CONFIG_XIAOMI_LITO_FOD_POS_Y = 2025
 SOONG_CONFIG_XIAOMI_LITO_FOD_SIZE = 190
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/monet_user_defconfig
+TARGET_KERNEL_CONFIG := gauguin_user_defconfig
 
 # Inherit from the proprietary version
-include vendor/xiaomi/monet/BoardConfigVendor.mk
+include vendor/xiaomi/gauguin/BoardConfigVendor.mk
