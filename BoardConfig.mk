@@ -8,16 +8,10 @@
 include device/xiaomi/sm7250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/gauguin
-
 BUILD_BROKEN_DUP_RULES := true
 
 # Display
 TARGET_SCREEN_DENSITY := 440
-
-# Fingerprint
-SOONG_CONFIG_XIAOMI_LITO_FOD_POS_X = 445
-SOONG_CONFIG_XIAOMI_LITO_FOD_POS_Y = 2025
-SOONG_CONFIG_XIAOMI_LITO_FOD_SIZE = 190
 
 # Kernel
 TARGET_KERNEL_CONFIG := gauguin_user_defconfig
