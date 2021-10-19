@@ -34,4 +34,4 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 $(call inherit-product, device/xiaomi/sm7250-common/lito.mk)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/picasso/picasso-vendor.mk)
+$(call inherit-product, vendor/xiaomi/gauguin/gauguin-vendor.mk)

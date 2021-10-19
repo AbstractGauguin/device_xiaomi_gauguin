@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=picasso
+export DEVICE=gauguin
 export DEVICE_COMMON=sm7250-common
 export VENDOR=xiaomi
 
